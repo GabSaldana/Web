@@ -1,0 +1,35 @@
+
+.ff{
+    
+    padding: 50px 0px 50px 150px;
+    /*background-color:  ivory;*/
+    border-radius: 50px;
+     background: -webkit-linear-gradient(top, #29B6F6 ,#4DD0E1); /* For Safari 5.1 to 6.0 */
+     background: -moz-linear-gradient(top, #29B6F6, #4DD0E1); /* For Firefox 3.6 to 15 */
+    box-shadow: 0px 3px 6px #000000;
+    color: #263238;
+    font-size: 20px;
+}
+
+.bs{
+    
+    background-color: white;
+    height: 100px;
+}
+
+.btn-circle.btn-ll {
+  width: 80px;
+  height: 80px;
+  padding: 10px 16px;
+  font-size: 40px;
+  line-height: 1.33;
+  border-radius: 40px;
+  color:#263238;
+  background-color: transparent;
+  box-shadow: 0px 0px 8px #000000;
+}
+
+#ok{
+    
+    padding: 30px 0px 0px 140px;
+}

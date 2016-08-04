@@ -1,0 +1,116 @@
+/*agregando un reset css, para que se quiten los etilos css por default de un navegador*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+
+}
+
+table{ border-collapse: collapse; border-spacing: 0;}
+td,th,caption{font-weight: normal; text-align: left;}
+img, fieldset{ border: 0;}
+ol{padding-left: 1.4em; list-style: decimal;}
+ul{padding-left: 1.4em;list-style: square;}
+q:before, q:after{content: ' ';}
+
+/*fin del reset css*/
+
+body{
+    font-size: 62.5%;
+}
+
+h1{
+    font: normal 2.4em Verdana, Geneva, sans-serif;
+    background: -webkit-linear-gradient(top, #FFD700, #00CED1);
+    width: 35%;
+    border-radius: 20px;
+    margin: 15px auto;
+    text-align: center;
+    padding: 15px;
+    box-shadow:purple 5px 15px 50px; 
+    color:white;
+    text-shadow: gray 3px 3px 5px;
+
+}
+
+h1:hover{
+
+   -webkit-transform:rotate(360deg);
+    -webkit-transition:-webkit-transform 0.7s ease 0.3s;
+}
+
+h2{
+
+font: bold 1.7em  Verdana, Geneva, sans-serif;
+margin:10px;
+padding: 5px 5px 5px 0px;
+color:black;
+ 
+
+}
+
+section{
+width: 80%;
+border-top: 1px dashed gray;
+margin: auto;
+
+}
+
+figure{
+
+float: left;
+
+}
+
+figure img{/*selector descendiente lo va a aplicar a las etiquetas figure que tengan img*/
+    padding: 4px;
+    background: gray;
+    border-radius: 50px;
+
+}
+
+figure img:hover{
+
+-webkit-transform:scale(1.2);
+-webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+    /*0.1 es lo que tarda en arrancar el efecto, 0.3 cuanto dura el efecto 
+    
+    easy-in-out es el propio efecto*/
+    
+box-shadow: #708090 5px 8px 15px;
+}
+
+figcaption{
+
+font-family: cursive;
+font-size: 1.3em;
+text-align: center;
+margin-top: 5px;
+
+}
+
+
+footer{
+clear: both;
+padding-top: 20px;
+
+}
+
+footer p{
+
+font: 1.6em Georgia ;
+color: red;
+margin: 10px 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
